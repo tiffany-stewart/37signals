@@ -1,0 +1,321 @@
+
+
+
+/* line break */
+
+hr {
+	background: white url("images/hr.png") no-repeat 50%;
+	border: 0;
+  padding-top: 40px;
+	clear: both;
+	height: 12px;
+}
+
+/*nav bar*/
+
+nav {
+  margin-top: 25px;
+  /*width: 100%;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+nav li {
+  display: inline;
+  padding-right: 20px;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+
+nav ul {
+  float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  margin-right: 20px;
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #336699;
+}
+
+nav a > span {
+  color: #18AFE0;
+}
+
+nav span:hover {
+  color: #369369;
+}
+
+nav a:hover {
+  color: #18AFE0;
+}
+
+/*header section*/
+
+header {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+  font-family: 'Crimson Text', serif;
+}
+
+header img {
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 10px 0;
+	color: #222222;
+}
+
+header p {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.infoBox {
+  border: .5px solid #E8E8E8;
+  border-radius: 5px;
+  display: inline-block;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.infoBox p {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.infoBox a {
+  color: #336699;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.infoBox h3 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.infoBox p {
+  font-size: 13px;
+
+}
+
+/*client section*/
+
+#clientSection {
+  /*position: relative;*/
+  display: block;
+}
+
+#clientSection h1 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#clientSection img.globe {
+  float: right;
+  width: 20%;
+  padding-right: 50px;
+}
+
+#clientSection p {
+  padding-left: 70px;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #656565;
+  line-height: 30px;
+  width: 70%;
+}
+
+.clients img {
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+/*selling points section*/
+
+#sellingPoints {
+  height: 445px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  width: 825px;
+  margin: auto;
+
+}
+
+#sellingPoints h1 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  heigh: 400px;
+  display: block;
+}
+
+.number {
+  font-size: 40px;
+  color: #CCCCCC;
+  float: left;
+  padding-right: 15px;
+  font-size: 60px;
+  clear: left;
+  margin: -10px 15px 0 0;
+}
+
+.content h3 {
+  color: #CC0000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 7px 0;
+  text-align: left;
+}
+
+.content p {
+
+  font-family: 'Roboto', sans-serif;
+  clear: right;
+  text-align: left;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+
+/*book section*/
+
+#bookSection {
+  width: 825px;
+  margin: 0 auto;
+}
+
+#bookSection h1 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.book a {
+  float: left;
+}
+
+.quote p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  color: #888888;
+}
+
+.quote cite {
+  text-align: center;
+}
+
+/*offer section*/
+
+#offerSection {
+  width: 825px;
+  margin: 0 auto;
+}
+
+#offerSection h1 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.offerColumn {
+  float: left;
+  width: 45%;
+  heigh: 400px;
+  display: block;
+  margin: 10px;
+  height: 400px;
+}
+
+.offerColumn h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #CC0000;
+  text-align: center;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 15px;
+}
+
+.offerColumn ul {
+  padding: 5px;
+}
+
+.offerColumn li {
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+
+.offerColumn a {
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  color: #000;
+  font-size: 20px;
+}
+
+/*footer section*/
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 30px auto;
+  width: 875px;
+}
+
+footer h3 {
+  color: #CC0000;
+  font-size: 17px;
+}
+
+footer ul {
+  padding-right: 45px;
+}
+
+footer li {
+  font-size: 12px;
+  padding: 5px 0;
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #336699;
+}
+
+footer p {
+  font-size: 11px;
+  color: grey;
+}
